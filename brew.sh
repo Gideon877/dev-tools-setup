@@ -44,14 +44,13 @@ brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 
+if test -ne .bash_profile then touch .bash_profile
+
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
 brew install yarn --without-node
 echo "------------------------------"
 echo "Setting up pip."
-# Install pip
-easy_install pip
-echo "------------------------------"
-echo "Setting up pip."
+brew install python3
 pip3 install awscli
 
 nvm install 6.10.2
