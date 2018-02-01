@@ -44,7 +44,7 @@ brew cask install --appdir="/Applications" firefox
 brew cask install --appdir="/Applications" skype
 brew cask install --appdir="/Applications" slack
 
-if test -ne .bash_profile then touch .bash_profile
+if test -ne .bash_profile then touch .bash_profile fi
 source .bash_profile
 
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.8/install.sh | bash
