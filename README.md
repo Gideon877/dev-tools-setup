@@ -1,6 +1,4 @@
 dev-setup
 ============
 
-#Run sh brew.sh 
-
-##Welcome to Wala
+## Run sh brew.sh 
