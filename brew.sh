@@ -52,9 +52,9 @@ echo "Setting up pip."
 easy_install pip
 echo "------------------------------"
 echo "Setting up pip."
-pip install awscli
+pip3 install awscli
 
-nvm install install 6.10.2
+nvm install 6.10.2
 
 brew cleanup
 npm install -g eslint
