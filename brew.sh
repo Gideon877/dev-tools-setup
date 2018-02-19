@@ -24,6 +24,7 @@ brew upgrade --all
 brew install git
 brew install git-lfs
 brew install git-flow
+brew install git-secrets
 
 # Install Cask
 brew install caskroom/cask/brew-cask
