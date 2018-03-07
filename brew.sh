@@ -31,7 +31,7 @@ brew install caskroom/cask/brew-cask
 brew tap caskroom/versions
 
 # Core casks
-brew cask install --appdir="~/Applications" java
+brew cask install --appdir="~/Applications" caskroom/versions/java8
 brew cask install --appdir="~/Applications" android-studio
 brew cask install android-sdk
 
